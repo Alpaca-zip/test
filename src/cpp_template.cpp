@@ -16,8 +16,7 @@
 
 #include "cpp_template/cpp_template.h"
 
-TemplateNode::TemplateNode()
-{
+TemplateNode::TemplateNode(){
   // constructor
 }
 
