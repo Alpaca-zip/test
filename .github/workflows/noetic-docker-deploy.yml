@@ -1,9 +1,9 @@
 name: ROS-noetic Docker Image Deployment
 
 on:
-  pull_request_target:
-    types:
-      - merged
+  push:
+    branches:
+      - main
   workflow_dispatch:
 
 jobs:
